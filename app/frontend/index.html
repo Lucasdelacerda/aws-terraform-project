@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TaskFlow SaaS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+        <h2>TaskFlow</h2>
+        <p>DevOps Dashboard</p>
+    </aside>
+
+    <main class="main">
+
+        <header>
+            <h1>Tasks Manager</h1>
+        </header>
+
+        <section class="card">
+
+            <div class="input-group">
+                <input id="taskInput" type="text" placeholder="Nova tarefa...">
+                <button onclick="createTask()">Adicionar</button>
+            </div>
+
+        </section>
+
+        <section class="card">
+
+            <h3>Tasks</h3>
+            <div id="taskList"></div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

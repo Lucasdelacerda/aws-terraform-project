@@ -1,0 +1,2 @@
+# Copie para terraform.tfvars e use uma senha forte (não versione o arquivo real).
+db_password = "troque-por-uma-senha-forte"
