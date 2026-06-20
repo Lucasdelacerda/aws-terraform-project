@@ -6,3 +6,4 @@ terraform.tfvars
 tfplan
 .env
 node_modules/
+*.mp4
